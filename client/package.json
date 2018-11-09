@@ -1,0 +1,41 @@
+{
+  "name": "darttracker-client",
+  "version": "0.1.0",
+  "description": "The client for the dart-tracking tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lksfnd/DartTrackerJS.git"
+  },
+  "keywords": [
+    "dart",
+    "tracking",
+    "score",
+    "web",
+    "react"
+  ],
+  "author": "Lukas \"Lksfnd\" Fend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lksfnd/DartTrackerJS/issues"
+  },
+  "homepage": "https://github.com/Lksfnd/DartTrackerJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react-hot-loader": "^4.3.12",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "styled-components": "^4.0.3"
+  }
+}
